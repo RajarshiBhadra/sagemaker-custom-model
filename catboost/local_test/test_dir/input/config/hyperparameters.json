@@ -1,0 +1,1 @@
+{"learning_rate": 0.1, "loss_function": "Logloss", "iterations": 10, "depth": 7, "class_weights": null, "bootstrap_type": "Bernoulli", "random_seed": 9, "verbose": true, "validation": true, "cat_indices": 12, "od_type": "Iter", "od_wait": 45}
