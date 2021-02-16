@@ -103,7 +103,7 @@ $ ./predict.sh payload.csv
 ```
 You will simultaneously get response on the serve shell as well which will tell you if payload is being ingested correctly
 
-## Using as estimator object
+## Traing estimator object and Create Endpoint
 
 Once the container has been deployed and local testing has been succesful then you can use the container to train models on larger data sets on sagemaker
 
