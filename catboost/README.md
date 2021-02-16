@@ -140,8 +140,8 @@ predictor = model.deploy(1, 'ml.m4.xlarge',
 import boto3
 runtime= boto3.client('runtime.sagemaker')                       
 win_response = runtime.invoke_endpoint(EndpointName="<your-endpoint-name">,
-                                              ContentType='text/csv',
-                                              Body=your_payload_csv)
+                                       ContentType='text/csv',
+                                       Body=your_payload_csv)
 ```
 
 
